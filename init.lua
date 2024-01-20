@@ -310,6 +310,10 @@ vim.o.completeopt = 'menuone,noselect'
 -- NOTE: You should make sure your terminal supports this
 vim.o.termguicolors = true
 
+vim.o.expandtab = true
+vim.o.tabstop = true
+vim.o.shiftwidth = 2
+
 -- [[ Basic Keymaps ]]
 
 -- Keymaps for better default experience
@@ -426,7 +430,7 @@ vim.defer_fn(function()
     ensure_installed = { 'c', 'cpp', 'go', 'lua', 'python', 'rust', 'tsx', 'javascript', 'typescript', 'vimdoc', 'vim', 'bash' },
 
     -- Autoinstall languages that are not installed. Defaults to false (but you can change for yourself!)
-    auto_install = false,
+    auto_install = true,
     -- Install languages synchronously (only applied to `ensure_installed`)
     sync_install = false,
     -- List of parsers to ignore installing
