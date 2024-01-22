@@ -259,6 +259,9 @@ require('lazy').setup({
   --       Uncomment any of the lines below to enable them.
   -- require 'kickstart.plugins.autoformat',
   -- require 'kickstart.plugins.debug',
+  {
+    'entrez/roku.vim'
+  },
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
@@ -313,6 +316,7 @@ vim.o.termguicolors = true
 vim.o.expandtab = true
 vim.o.tabstop = true
 vim.o.shiftwidth = 2
+
 
 -- [[ Basic Keymaps ]]
 
