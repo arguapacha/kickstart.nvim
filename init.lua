@@ -317,6 +317,7 @@ vim.o.expandtab = true
 vim.o.tabstop = true
 vim.o.shiftwidth = 2
 
+vim.o.relativenumber = true
 
 -- [[ Basic Keymaps ]]
 
