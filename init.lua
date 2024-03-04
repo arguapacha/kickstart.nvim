@@ -315,7 +315,7 @@ vim.o.termguicolors = true
 
 vim.o.expandtab = true
 vim.o.tabstop = true
-vim.o.shiftwidth = 4
+vim.o.shiftwidth = 2
 
 vim.o.relativenumber = true
 
