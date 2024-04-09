@@ -749,9 +749,17 @@ require('lazy').setup({
     -- change the command in the config to whatever the name of that colorscheme is.
     --
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
-    'folke/tokyonight.nvim',
-    -- Sadly, looks like solarized doesn't work as expected. keywords colour are not what I wanted
-    -- 'altercation/vim-colors-solarized',
+    'folke/tokyonight.nvim', -- vim.cmd.colorscheme 'tokyonight-night' -- 'tokyonight-storm' -- 'tokyonight-moon'  -- 'tokyonight-day'
+    -- Other colourschemes to select: (from https://linovox.com/the-best-color-schemes-for-neovim-nvim/ )
+    -- 'bluz71/vim-nightfly-colors', -- vim.cmd.colorscheme 'nightfly'
+    -- 'catppuccino/nvim', -- vim.cmd.colorscheme 'catppuccino' -- 'catppuccino-latte' -- 'catppuccino-mocha' -- 'catppuccino-frappe' -- 'catppuccino-macchiato'
+    -- 'ebelot/kanagawa.nvim', -- vim.cmd.colorscheme 'kanagawa'
+    -- 'NLKNguyen/papercolor-theme',  -- vim.cmd.colorscheme 'PaperColor'
+    -- 'ellisonleao/gruvbox.nvim', -- vim.cmd.colorscheme 'gruvbox'
+    -- 'Mofiqul/dracula.nvim', -- vim.cmd.colorscheme 'dracula'
+    -- 'joshdick/onedark.vim', -- vim.cmd.colorscheme 'onedark'
+    -- 'romainl/Apprentice', -- vim.cmd.colorscheme 'apprentice'
+    -- 'shaunsingh/solarized.nvim', -- vim.cmd.colorscheme 'solarized'
     priority = 1000, -- Make sure to load this before all the other start plugins.
     init = function()
       -- Load the colorscheme here.
