@@ -750,6 +750,8 @@ require('lazy').setup({
     --
     -- If you want to see what colorschemes are already installed, you can use `:Telescope colorscheme`.
     'folke/tokyonight.nvim',
+    -- Sadly, looks like solarized doesn't work as expected. keywords colour are not what I wanted
+    -- 'altercation/vim-colors-solarized',
     priority = 1000, -- Make sure to load this before all the other start plugins.
     init = function()
       -- Load the colorscheme here.
